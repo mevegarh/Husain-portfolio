@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Husain Z Mevegar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+
+    header {
+      background: #1e293b;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #38bdf8;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #f1f5f9;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 80px 50px;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+
+    .hero p {
+      max-width: 600px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .projects, .skills, .certificates, .achievements {
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 40px;
+      margin-top: 40px;
+    }
+
+    .projects h3, .skills h3, .contact h3, .certificates h3, .achievements h3 {
+      margin-bottom: 20px;
+      font-size: 28px;
+      color: #38bdf8;
+    }
+
+    .project-item, .skill-item, .cert-item, .achievement-item {
+      background: #334155;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .links-section {
+      background: #1e293b;
+      border-radius: 12px;
+      padding: 30px 50px;
+      margin: 40px 50px;
+      text-align: center;
+    }
+
+    .links-section h3 {
+      font-size: 24px;
+      color: #38bdf8;
+      margin-bottom: 15px;
+    }
+
+    .links-section a {
+      display: block;
+      color: #facc15;
+      margin: 8px 0;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .links-section a:hover {
+      color: #fbbf24;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Husain Z Mevegar</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Husain 👋</h2>
+    <p>I'm a passionate web developer, learner, and builder of fun digital experiences. Let's build something awesome together!</p>
+  </section>
+
+  <section id="about">
+    <div class="projects">
+      <h3>About Me</h3>
+      <p>I'm learning full-stack web development. I build beautiful websites, solve problems using JavaScript and Python, and love turning ideas into reality through code.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="projects">
+      <h3>Projects</h3>
+      <div class="project-item">
+        <h4>🔗 Code with Brother</h4>
+        <p>A free coding learning website with courses, badges, and interactive challenges for HTML, CSS, JavaScript, and Python.</p>
+      </div>
+      <div class="project-item">
+        <h4>🎮 JARVIS AI Assistant</h4>
+        <p>A voice-controlled AI assistant made using Python that can open apps, search the web, and even talk back like Iron Man's JARVIS.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="skills">
+      <h3>Skills</h3>
+      <div class="skill-item">✅ HTML, CSS, JavaScript</div>
+      <div class="skill-item">✅ Python Programming</div>
+      <div class="skill-item">✅ Building Coding Websites</div>
+      <div class="skill-item">✅ Projects with GUI, Voice, and AI</div>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <div class="certificates">
+      <h3>📜 Certificates</h3>
+      <div class="cert-item">
+        <h4>HTML & CSS for Beginners – freeCodeCamp</h4>
+        <p>Completed a foundational course on building modern, responsive websites.</p>
+      </div>
+      <div class="cert-item">
+        <h4>Python Programming – Coursera</h4>
+        <p>Gained experience in problem-solving, functions, and mini-projects with Python.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="achievements">
+      <h3>🏆 Achievements</h3>
+      <div class="achievement-item">✅ Created 20+ real-world coding projects</div>
+      <div class="achievement-item">✅ Developed voice-powered JARVIS AI Assistant</div>
+      <div class="achievement-item">✅ Built my own learning platform "Code with Brother"</div>
+      <div class="achievement-item">✅ Consistent daily coding and GitHub contributions</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h3>Contact Me</h3>
+      <p><strong>📞 Phone:</strong> +91-9972018518</p>
+      <p><strong>📧 Email:</strong> mevegarh@gmail.com</p>
+    </div>
+  </section>
+
+  <!-- Final Custom Section -->
+  <div class="links-section">
+    <h3>Visit My Work Online</h3>
+    <a href="https://mhusainzit.github.io" target="_blank">🌐 mhusainzit.github.io</a>
+    <a href="https://mevegarh.github.io/Tic-Tac-Toe-game/" target="_blank">🎮 Tic-Tac-Toe Project (mevegarh)</a>
+    <a href="https://mevegarh.github.io/My-Exam/" target="_blank">📝 My-Exam Project (mevegarh)</a>
+    <p style="margin-top: 20px; font-size: 18px; color: #facc15;">📣 Do you want to join my class? Call now: <strong>9972018518</strong></p>
+  </div>
+
+  <footer>
+    &copy; 2025 Husain Z Mevegar. All rights reserved.
+  </footer>
+
+</body>
+</html>
